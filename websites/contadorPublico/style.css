@@ -1,0 +1,33 @@
+* {
+    scroll-behavior: smooth; /* mejora el aspecto visual de una web evitando cambios bruscos entre secciones */ 
+}
+
+#nav1 {
+    background-color: #fdfdfd;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+
+}
+
+
+section img {
+    display:block;
+    margin:auto;
+}
+    
+.container-fluid .img-bajo-texto {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.centrado {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+form {
+    text-align: left;
+}
