@@ -1,0 +1,152 @@
+ {
+    font-family: 'Playfair Display', serif;
+}
+
+body 
+{    background-color: #f8f9fa; 
+}
+
+header {
+    vertical-align: center;
+}
+
+p {
+    margin-bottom: 0!important;
+}
+
+#margen {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+    
+#contenido {
+    height: 100%;
+    width: 100%;
+    margin: 1em;
+}
+
+#aside {
+    height: 100%;
+/*   border-radius: 1em; */
+    float: left;/*
+    padding-top: 7rem!important;*/
+}
+.nav-link:hover {
+    color: #fff!important;
+    background-color: #dc3545!important;/*
+    background-color: #000!important;*/
+} 
+.section {
+    height: 100%;
+    width: 82%;
+/*   border-radius: 1em; */
+}
+
+.carousel__container {
+    height: 100%;
+    width: 100%;
+/*   border-radius: 1em; */
+    position: relative;
+    margin: 1em;
+}
+.carouselExampleControls {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.carousel-inner {
+    height: 100%;
+    width: 30%;
+/*    float: right;*/
+    display: block;
+    margin: auto;
+    
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 75%;
+}
+
+.left_1 {
+    height: 100%;
+    width: 34%;
+/*   border-radius: 1em; */
+    float: left;
+    margin: 1em;
+}
+
+.right_1 {
+    height: 100%;
+    width: 14%;
+/*   border-radius: 1em; */
+    float: right;
+    margin: 1em;
+}
+
+
+#redes1 {
+    right: 0;
+    left: 0;
+    background-color: #212529;
+
+}
+
+#productos {
+    justify-items: center;
+}
+
+footer {
+    background: #212529;
+}
+
+/* Swiper */
+.swiper-block {
+    background: #000000;/**/
+    overflow: hidden;
+  }
+
+  .swiper {/**/
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 300px;
+    margin: auto;
+  }
+.manga3D {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    padding: 0 20px;
+}
+
+.tresD__container {
+    display: flex;
+    background: #fff;
+}
+.tresD__container img {
+    margin: auto;
+}
+
+/* PS4 swiper */
+.ps4 {
+    position: relative;
+    height: 100%;
+    background: #fff;
+    padding: 50px 0 70px;
+    overflow: hidden;
+  }
+
+  .swiperPS4 {
+    width: 310px;
+    margin: auto;
+  }
+
+  .costados {
+    margin: auto;
+    padding: 0 20px;
+  }
+  .abajo {
+      bottom: auto!important;/**/
+      padding-top: 20px;
+  }
