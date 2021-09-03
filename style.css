@@ -11,22 +11,6 @@ body {
     background-color: #000000!important;
 }
 
-header {
-    display: flex;
-    background-color: #212529;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.logo {
-    display: inline-block;
-    
-}
-.barra {
-    display: inline-block;
-
-}
-
-
 
 .navbar {
     background: #000000;
