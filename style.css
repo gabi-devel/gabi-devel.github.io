@@ -27,26 +27,39 @@ body {
 
 .navbar__container {
     display: flex;
-    justify-content: space-between;
-    z-index: 1;
+    justify-content: space-between;/*
+    z-index: 1;*/
     width: 100%;
     max-width: 1300px;
     margin: 0 auto;
     padding: 0 50px;
+    flex-wrap: wrap;
 }
 
 #navbar__logo {
-    color: #ffffff;
     display: flex;
     align-items: center;
-    text-decoration: none;
-    height: 80%;
+    background: #000;
+    height: 41.19px;
+    width: 170px;
+    border: 1px solid #0d6efd;
+    padding: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+    
+}
+#navbar__logo p {
+    margin: 10px auto;
+    padding: auto;
 }
 
-.navbar__menu {
-    display: flex;
+#mobile-menu {
+    display: inline-block;
     align-items: center;
     list-style: none;
+}
+.dropdown-menu {
+    right: 0;
 }
 
 .navbar__item {
@@ -119,11 +132,10 @@ body {
     text-decoration: none;
 }
 
-.boton {
+.botonCV {
     display: inline-block;
     font-weight: 400;
     line-height: 1.5;
-    color: #212529;
     text-align: center;
     text-decoration: none;
     vertical-align: middle;
@@ -137,25 +149,58 @@ body {
     font-size: 1rem;
     border-radius: .25rem;
     text-decoration: none;
-}
-.botonAzul {
-    color: #0d6efd;
     border-color: #0d6efd;
     padding-bottom: 4px!important;
     padding: 10px 20px;
+    margin-top: 25px;
 }
-.boton:hover {
+.botonCV:hover {
     background-color: #0d6efd;
     border-color: #0d6efd;
     padding-bottom: 4px!important;
     padding: 10px 20px;
 }
-.botonAzul a {
+.botonCV a {
     text-decoration: none;
 }
-.botonAzul a:hover {
+.botonCV a:hover {
     color: #fff!important;
 }
+
+
+.footer {
+    background: #212529;
+    color: #fff;
+    padding-top: 1.5rem;
+    display: block;
+}
+.footer__row {
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x)/ 2);
+    padding-left: calc(var(--bs-gutter-x)/ 2);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 50px 90px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.footer__column {
+    text-align: center;
+    display: inline-block;
+    width: 300px;
+}/**/
+.f2 {
+    align-self: baseline;
+}
+.f3 {
+    align-self: flex-end;
+}
+.footer__border {
+    border-bottom: 1px solid #dee2e6;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
 
 
 
@@ -163,21 +208,20 @@ body {
 @media (max-width: 900px) {
 * {
     font-size: 1rem;
+} 
+.navbar {
+    width: 100%;
 }
-        .container {
-            max-width: 100%;
-        }
+
     .navbar__container {
         display: flex;
-        justify-content: space-between;
-        height: 80px;
-        z-index: 1;
-        width: 90%;
+        justify-content: space-between; /*
+        z-index: 1; */
         max-width: 1300px;
-        padding: 0;
+        padding: 0 10px;
     }
-
-    .navbar__menu {
+/*
+  #mobile__menu {
         display: block;
         grid-template-columns: auto;
         margin: 0;
@@ -186,9 +230,33 @@ body {
         opacity: 1;
         transition: all 0.5s ease;
         z-index: -1;
+    }*/#mobile-menu {
+        top: 10px;/*
+        transform: translate(5%, 20%); */
+        right: 10px; 
+        position: fixed;
+        display: inline-block;
+        align-items: center;/**/
+        align-self: flex-end;
+    }
+    #navbar__logo {
+        display: flex;
+        align-items: center;
+        background: #000;
+        height: 38px;
+        width: 131px;
+        border: 1px solid #0d6efd;
+        padding: 10px;
+        border-radius: 5px;
+        color: #ffffff;
+    }
+    #navbar__logo p {
+        margin: 10px auto;
+        padding: auto;
+        position: fixed;
     }
 
-    .navbar__menu.active {
+    #mobile__menu:active {
         background: #131313;
         top: 100%;
         opacity: 1;
@@ -196,10 +264,6 @@ body {
         z-index: 99;
         height: 60vh;
         font-size: 1.6rem;
-    }
-
-    #navbar_logo {
-        padding-left: 25px;
     }
 
     .navbar__toggle  .bar {
@@ -220,12 +284,7 @@ body {
         display: table;
     }
 
-    #mobile-menu {
-        position: fixed;
-        right: 5%; /*
-        top: 20%;
-        transform: translate(5%, 20%); */
-    }
+    
 
     .navbar__toggle  .bar {
         display: block;
@@ -260,9 +319,11 @@ body {
         padding: 0;
     }
 
-
-
+.botonCV {
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
+
 
 
 
