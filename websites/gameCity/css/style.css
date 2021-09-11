@@ -37,8 +37,7 @@ p {
 }
 .nav-link:hover {
     color: #fff!important;
-    background-color: #dc3545!important;/*
-    background-color: #000!important;*/
+    background-color: #dc3545!important;
 } 
 .section {
     height: 100%;
