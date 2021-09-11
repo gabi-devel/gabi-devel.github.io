@@ -1,0 +1,100 @@
+body {
+    height: 98vh;/*
+    background: #212529;*/
+    background: rgb(0, 0, 0);
+}/*
+.fondo {
+    background-image: url("E:/GABI/Programacion/GameCityPrueba/imags/abstract-5035778_1920.jpg");
+    background-size: cover;
+}*/
+.container {
+    margin: auto;/*
+    outline: 2px solid #7a7a79;*/
+    margin-bottom: -10px;
+    width: 80vw;
+    height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    
+}
+
+.caja {
+    height: 420px;
+    width: 470px;
+    margin: auto;
+    display: flex;/**/
+    
+    border-radius: 5%;
+    
+    overflow: hidden;
+    z-index: 100;
+    background: #5289ff; 
+    
+
+    align-items: center;
+}
+
+.caja__img {
+    display: inline-block;
+    height: 100%;
+    object-fit: cover;/*
+    object-position: 100px 100px;*/
+    z-index: 10;
+    min-width: 470px;
+    margin: 0 auto;
+    
+}
+
+.img2 {
+    /*object-position: -132px -40px;
+    height: 100%;*/
+    object-fit: cover;
+
+}
+
+.caja__img:hover {
+    opacity: 0.7;
+}
+
+.button__container {/**/
+    display: flex;
+
+
+    align-items: center;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    z-index: 100;
+
+    
+}
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 21px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fdfdfd;
+    background-color: transparent;/*#000000;
+    border: ridge;*/
+    border-radius: 20px;
+    box-shadow: 0 1px #4d4d4d;/*
+    margin: 30px auto;*/
+    
+    /**/
+    margin: 40px 20px;
+    align-self: center;
+  }
+  
+  .button:hover {background-color: #transparent; }
+  
+  .button:active {
+    background-color: hsl(236, 81%, 50%, 0.6);
+    box-shadow: 0.8 2.5px #302f2f;
+    transform: translateY(4px);
+    outline: none;
+  }
