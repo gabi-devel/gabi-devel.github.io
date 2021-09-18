@@ -5,68 +5,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game City</title>
-    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="../css/swiper.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/uikit.min.css" />
-    <link rel="stylesheet" href="css/style.css">
-    
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/uikit.min.css" />
+    <link rel="stylesheet" href="slider-editado.css">
 </head>
 <body>
 
 <!-- HEADER -->
+
+
+
 
 <header>
     <div class="fixed-top px-3 py-2 bg-dark text-white">
         <div class="container">
           <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
             <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
-              <img src="imags/Game-city-logo.png" alt="" height="90">
+              <img src="../imags/Game-city-logo.png" alt="" height="90">
             </a>
   
         <div>
-          <a href="paginas\inicio.html" class="btn btn-outline-primary paginas">Inicio</a>
+          <a href="../paginas/inicio.html" class="btn btn-outline-primary paginas">Inicio</a>
         </div>
-              
+
             <div class="dropdown">
               <button class="btn btn-outline-danger dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false" style="width: 280px;">
                  Productos
               </button>
               <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
                 <div id="aside">
-                  <div class="d-flex flex-column flex-shrink-0 p-3 bg-light" style="width: 280px;">
+                  <div class="d-flex flex-column flex-shrink-0 p-3 bg-light" style="width: 100vw;"><!--style="width: 280px;-->
                       <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
-                        <span class="nav-link link-dark fs-4" style="border-radius: .25rem;">Todos los productos</span>
+                        <span class="nav-link link-dark fs-5" style="border-radius: .25rem;">Todos los productos</span>
                       </a>
                       <hr>
                       <ul class="nav nav-pills flex-column mb-auto">
                         <li class="nav-item"><!--<a href="#" class="nav-link active" aria-current="page">-->
-                          <a href="#" class="nav-link link-dark" aria-current="page">
-                            <svg class="bi me-2" width="16" height="16"><use xlink:href="#home"></use></svg>
+                          <a href="#" class="nav-link link-dark bloqueNav" aria-current="page"><!--
+                            <svg class="bi me-2" width="16" height="16"><use xlink:href="#home"></use></svg>-->
                             Videojuegos
                           </a>
                         </li>
                         <li>
-                          <a href="#" class="nav-link link-dark">
-                            <svg class="bi me-2" width="16" height="16"><use xlink:href="#speedometer2"></use></svg>
+                          <a href="#" class="nav-link link-dark bloqueNav"><!--
+                            <svg class="bi me-2" width="16" height="16"><use xlink:href="#speedometer2"></use></svg>-->
                             Manga
                           </a>
                         </li>
                         <li>
-                          <a href="#" class="nav-link link-dark">
-                            <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"></use></svg>
+                          <a href="#" class="nav-link link-dark bloqueNav"><!--
+                            <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"></use></svg>-->
                             Anime
                           </a>
                         </li>
                         <li>
-                          <a href="#" class="nav-link link-dark">
-                            <svg class="bi me-2" width="16" height="16"><use xlink:href="#grid"></use></svg>
+                          <a href="#" class="nav-link link-dark bloqueNav"><!--
+                            <svg class="bi me-2" width="16" height="16"><use xlink:href="#grid"></use></svg>-->
                             Informatica
                           </a>
                         </li>
                         <li>
-                          <a href="#" class="nav-link link-dark">
-                            <svg class="bi me-2" width="16" height="16"><use xlink:href="#people-circle"></use></svg>
+                          <a href="#" class="nav-link link-dark bloqueNav"><!--
+                            <svg class="bi me-2" width="16" height="16"><use xlink:href="#people-circle"></use></svg>-->
                             Merchandising
                           </a>
                         </li>
@@ -98,181 +100,62 @@
           </div>
         </div>
       </div>
-</header>
-    
-<br><br><br><br><br>
+    </header>
 
-<!-- BARRA LATERAL DARK 
+    <section class="banner1">
+      <div class="banner1__letra">Banner</div> 
+    </section>
 
-  <div id="aside">
-<div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" style="width: 280px;">
-    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-      <span class="fs-4">Sidebar</span>
-    </a>
-    <hr>
-    <ul class="nav nav-pills flex-column mb-auto">
-      <li class="nav-item">
-        <a href="#" class="nav-link active" aria-current="page">
-          <svg class="bi me-2" width="16" height="16"><use xlink:href="#home"></use></svg>
-          Home
-        </a>
-      </li>
-      <li>
-        <a href="#" class="nav-link text-white">
-          <svg class="bi me-2" width="16" height="16"><use xlink:href="#speedometer2"></use></svg>
-          Dashboard
-        </a>
-      </li>
-      <li>
-        <a href="#" class="nav-link text-white">
-          <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"></use></svg>
-          Orders
-        </a>
-      </li>
-      <li>
-        <a href="#" class="nav-link text-white">
-          <svg class="bi me-2" width="16" height="16"><use xlink:href="#grid"></use></svg>
-          Products
-        </a>
-      </li>
-      <li>
-        <a href="#" class="nav-link text-white">
-          <svg class="bi me-2" width="16" height="16"><use xlink:href="#people-circle"></use></svg>
-          Customers
-        </a>
-      </li>
-    </ul>
-    <hr>
-    <div class="dropdown">
-      <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
-        <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
-        <strong>mdo</strong>
-      </a>
-      <ul class="dropdown-menu dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser1">
-        <li><a class="dropdown-item" href="#">New project...</a></li>
-        <li><a class="dropdown-item" href="#">Settings</a></li>
-        <li><a class="dropdown-item" href="#">Profile</a></li>
-        <li><hr class="dropdown-divider"></li>
-        <li><a class="dropdown-item" href="#">Sign out</a></li>
-      </ul>
-    </div>
-  </div>-->
-
-<!-- BARRA LATERAL LIGHT 
-<div id="aside" class="pt-5">
-<div class="d-flex flex-column flex-shrink-0 p-3 bg-light" style="width: 280px;">
-    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
-      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-      <span class="fs-4">Sidebar</span>
-    </a>
-    <hr>
-    <ul class="nav nav-pills flex-column mb-auto">
-      <li class="nav-item">
-        <a href="#" class="nav-link active" aria-current="page">
-          <svg class="bi me-2" width="16" height="16"><use xlink:href="#home"></use></svg>
-          Inicio
-        </a>
-      </li>
-      <li>
-        <a href="#" class="nav-link link-dark">
-          <svg class="bi me-2" width="16" height="16"><use xlink:href="#speedometer2"></use></svg>
-          Dashboard
-        </a>
-      </li>
-      <li>
-        <a href="#" class="nav-link link-dark">
-          <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"></use></svg>
-          Orders
-        </a>
-      </li>
-      <li>
-        <a href="#" class="nav-link link-dark">
-          <svg class="bi me-2" width="16" height="16"><use xlink:href="#grid"></use></svg>
-          Products
-        </a>
-      </li>
-      <li>
-        <a href="#" class="nav-link link-dark">
-          <svg class="bi me-2" width="16" height="16"><use xlink:href="#people-circle"></use></svg>
-          Customers
-        </a>
-      </li>
-    </ul>
-  </div>-->
-<!-- Fin #aside 
-</div>-->
-
-<!-- SECCION PRODUCTOS 
-<section>
-<div class="container pt-5">
-<div class="d-md-flex flex-md-equal w-90 my-md-3 ps-md-3 pt-5">
-    <div class="bg-light me-md-3 pt-3 px-3 pt-md-1 px-md-5 text-center overflow-hidden">
-      <div class="my-3 p-3">
-        <h3 class="display-5">Microfono</h3>
-        <p class="lead"></p><br><br>
-        <img src="imags\Microfono.jpg" alt="" class="bg-body shadow-sm mx-auto" style="width: 100%; height: 100%; border-radius: 21px 21px 0 0;">
+    <!-- Mario 
+    <br><br>
+    <section>
+      <div class="tresD__container">
+        <img src="../imags/Consola-Portatil-Pvp.jpg" alt="">
       </div>
-    </div>
-    <div class="bg-light me-md-3 pt-3 px-3 pt-md-1 px-md-5 text-center overflow-hidden">
-      <div class="my-3 py-3">
-        <h2 class="display-5">Mouse</h2>
-        <p class="lead"></p><br><br>
-      <img src="imags\Mouse.jpg" alt="" class="bg-body shadow-sm mx-auto" style="width: 97%; height: 100%; border-radius: 21px 21px 0 0;">
-    </div></div>
-    <div class="bg-light me-md-3 pt-3 px-3 pt-md-1 px-md-5 text-center overflow-hidden">
-      <div class="my-3 py-3">
-        <h2 class="display-5">Teclado</h2>
-        <p class="lead"></p><br><br>
-        <img src="imags\Teclado2.jpg" alt="" class="bg-body shadow-sm mx-auto" style="width: 97%; height: 100%; border-radius: 21px 21px 0 0;">
-      </div>
-    </div>
-
-</div></section>-->
-
-<!-- BLACK SECTION 
-<div class="bg-dark text-secondary px-4 py-5 text-center">
-    <div class="py-5">
-      <h1 class="display-5 fw-bold text-white">Dark mode hero</h1>
-      <div class="col-lg-6 mx-auto">
-        <p class="fs-5 mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-          <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Custom button</button>
-          <button type="button" class="btn btn-outline-light btn-lg px-4">Secondary</button>
-        </div>
-      </div>
-    </div>
-  </div> -->
-
-
+    </section>
+  -->
 
 <!--<section class="left_1"></section>
 <section class="right_1"></section>-->
-
-<br><br>
-<section>
-  <div class="tresD__container">
-    <img src="imags\Consola-Portatil-Pvp.jpg" alt="">
-  </div>
-</section><br><br>
 
 
 <!-- PS4 Swiper -->
 <section><section class="ps4">
   <div class="swiperPS4">
-    <div class="swiper-wrapper">
-      <img class="swiper-slide costados" src="imags\videojuegos\ps4\air.jpg">
-      <img class="swiper-slide costados" src="imags\videojuegos\ps4\dark-2.jpg">
-      <img class="swiper-slide costados" src="imags\videojuegos\ps4\dissi.jpg">
-      <img class="swiper-slide costados" src="imags\videojuegos\ps4\far4.jpg">
-      <img class="swiper-slide costados" src="imags\videojuegos\ps4\king.jpg">
-      <img class="swiper-slide costados" src="imags\videojuegos\ps4\thelast.jpg">
+    <div class="swiper-wrapper"><!---->
+      <section>
+        <div class="blockAutoplay videojuegoBox">
+          <h5 class="infoGames">Sin Stock</h5>
+          <img class="swiper-slide swiper-Game costados gameSinStock" src="../imags/videojuegos/ps4/air.jpg" alt="">
+        </div>  
+        <img class="swiper-slide swiper-Game costados" src="../imags/videojuegos/ps4/air.jpg">
+      </section>
+      <img class="swiper-slide swiper-Game costados" src="../imags/videojuegos/ps4/dark-2.jpg">
+      <section class="blockAutoplay videojuegoBox">
+        <img class="swiper-slide swiper-Game costados gameSinStock" src="../imags/videojuegos/ps4/dissi.jpg" alt="">
+        <h5 class="infoGames gameNuevo blue">Novedad</h5>
+      </section>
+      <img class="swiper-slide swiper-Game costados" src="../imags/videojuegos/ps4/far4.jpg">
+      <section class="blockAutoplay videojuegoBox">
+        <img class="swiper-slide swiper-Game costados gameSinStock" src="../imags/videojuegos/ps4/far4.jpg" alt="">
+        <h5 class="infoGames gameNuevo azul">Nuevo!</h5>
+      </section>
+      <img class="swiper-slide swiper-Game costados" src="../imags/videojuegos/ps4/king.jpg">
+      <section class="blockAutoplay videojuegoBox">
+        <img class="swiper-slide swiper-Game costados gameSinStock" src="../imags/videojuegos/ps4/far4.jpg" alt="">
+        <h5 class="infoGames gameNuevo azul rojo">Nuevo!</h5>
+      </section>
+        <img class="swiper-slide swiper-Game costados" src="../imags/videojuegos/ps4/thelast.jpg">
+        <section class="blockAutoplay videojuegoBox">
+          <img class="swiper-slide swiper-Game costados" src="../imags/videojuegos/ps4/far4.jpg" alt="">
+        </section>
+        <img class="swiper-slide swiper-Game costados" src="../imags/videojuegos/ps4/dissi.jpg" alt="">
     </div>
     <!-- Add Pagination -->
     <div class="swiper-pagination abajo"></div>
   </div>
 </section>
-<script src="swiper.min.js"></script>
+<script src="../swiper.min.js"></script>
 <!-- Initialize Swiper -->
 <script>
   var swiper = new Swiper('.swiperPS4', {
@@ -297,25 +180,48 @@
 <div class="swiper-block">
   <div class="swiper">
     <div class="swiper-wrapper">
-        <img class="swiper-slide manga3D" src="imags\manga\amaryseramadodejaryserdejado03.jpg" alt="">
-        <img class="swiper-slide manga3D" src="imags\manga\atack-3.jpg" alt="">
-        <img class="swiper-slide manga3D" src="imags\manga\atack-4.jpg" alt="">
-        <img class="swiper-slide manga3D" src="imags\manga\attack_on_titan_30.jpg" alt="">
-        <img class="swiper-slide manga3D" src="imags\manga\blue.jpg" alt="">
-        <img class="swiper-slide manga3D" src="imags\manga\fruitsbasket17.jpg" alt="">
-        <img class="swiper-slide manga3D" src="imags\manga\goblin-2.jpg" alt="">
-        <img class="swiper-slide manga3D" src="imags\manga\goblin.jpg" alt="">
-        <img class="swiper-slide manga3D" src="imags\manga\promice-2.jpg" alt="">
-        <img class="swiper-slide manga3D" src="imags\manga\promice-11.jpg" alt="">
-        <img class="swiper-slide manga3D" src="imags\manga\promice-12.jpg" alt="">
-        <img class="swiper-slide manga3D" src="imags\manga\sword.jpg" alt="">
-        <img class="swiper-slide manga3D" src="imags\one_punch.jpg" alt="">
+        <section class="blockAutoplay swiper-slide manga3D">
+            <img src="../imags/manga/amaryseramadodejaryserdejado03.jpg" alt="">
+        </section>
+        <section class="blockAutoplay swiper-slide manga3D">
+            <img src="../imags/manga/atack-3.jpg" alt="">
+            <h5 class="infoH5 novedad rectCentro">Proximamente!</h5>
+        </section>
+        <section class="blockAutoplay swiper-slide manga3D">
+          <img src="../imags/manga/atack-4.jpg" alt="">
+          <h5 class="infoH5 novedadBig rectCentro">Nuevo!</h5>
+        </section>
+        <section class="blockAutoplay swiper-slide manga3D">
+          <img src="../imags/manga/attack_on_titan_30.jpg" alt="" class="sinStock">
+          <h5 class="infoH5 rectCentro noStock">Sin Stock</h5>
+        </section>
+        <section class="blockAutoplay swiper-slide manga3D">
+          <img src="../imags/manga/blue.jpg" alt="" class="sinStock">
+          <!--<h5 class="infoH5 encargar">Votar nuevo ingreso</h5>-->
+          <h5 class="infoH5 rectCentro noStock">Sin Stock</h5>
+        </section>
+
+        <section class="blockAutoplay swiper-slide manga3D">
+          <img src="../imags/manga/fruitsbasket17.jpg" alt="">
+        </section>
+        
+        <img class="swiper-slide manga3D" src="../imags/manga/goblin-2.jpg" alt="">
+        <img class="swiper-slide manga3D" src="../imags/manga/goblin.jpg" alt="">
+
+        <section class="blockAutoplay swiper-slide manga3D">
+          <img src="../imags/manga/promice-2.jpg" alt="">
+          <h5 class="infoH5">Sin Stock</h5>
+        </section>
+        <img class="swiper-slide manga3D" src="../imags/manga/promice-11.jpg" alt="">
+        <img class="swiper-slide manga3D" src="../imags/manga/promice-12.jpg" alt="">
+        <img class="swiper-slide manga3D" src="../imags/manga/sword.jpg" alt="">
+        <img class="swiper-slide manga3D" src="../imags/one_punch.jpg" alt="">
     </div>
     <!-- Add Pagination -->
     <div class="swiper-pagination"></div>
   </div>
 </div>
-<script src="swiper.min.js"></script>
+<script src="../swiper.min.js"></script>
   <!-- Initialize Swiper -->
   <script>
     var swiper = new Swiper('.swiper', {
@@ -341,12 +247,14 @@
 
 
 <!-- Ulkit: Parallax 
-<div class="uk-height-large uk-background-cover uk-overflow-hidden uk-light uk-flex uk-flex-top" style="background-image: url('imags\placasVideo.jpg');">
+<div class="uk-height-large uk-background-cover uk-overflow-hidden uk-light uk-flex uk-flex-top" style="background-image: url('imags/placasVideo.jpg');">
   <div class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical">
       <h1 uk-parallax="opacity: 0,1; y: -100,0; scale: 2,1; viewport: 0.5;">Headline</h1>
       <p uk-parallax="opacity: 0,1; y: 100,0; scale: 0.5,1; viewport: 0.5;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
   </div>
 </div>-->
+
+<!--
 <section id="redes1" class="container-fluid ">
 <div class="text-secondary px-4 py-5 text-center">
   <div class="py-5">
@@ -375,20 +283,52 @@
   </div>
 </div>
 </section>
+-->
 
+<section class="buscador">
+  <!--<div class="buscador__letra">buscador</div>
+    <div></div>
+  <form action="../../form-result.php" method="post" target="_blank">
+    <p>
+      Buscar por código: <input type="search" name="busquedacodigo" pattern="[A-Za-z0-9]{8,20}" title="Un código válido consiste en una cadena con 8 a 20 caracteres, cada uno de los cuales es una letra o un dígito" required>
+      <input type="submit" value="Buscar">
+    </p>
+  </form>
+  -->
+  <form action="../../form-result.php" method="post" target="_blank">
+    <p>
+      <div class="buscador__letra1">Buscador</div>
+      <input class="buscador__rect" type="search" name="busquedacodigo" pattern="[A-Za-z0-9]{8,20}" title="Un código válido consiste en una cadena con 8 a 20 caracteres, cada uno de los cuales es una letra o un dígito" required>
+      <!--<input type="submit" value="Buscar">-->
+    </p>
+  </form>
+</section>
 
-
-
+<section class="video">
+<div id="container-50" class="container">
+  <div class="col">
+      <div class="p-3 text-white negrito">Carrito de Compras<br><br>
+        <video id="myVideo" width="100%" controls="">
+          <source id="myVideo" src="videos\comercio01.mp4" type="video/mp4" autoplay="" muted="">
+        </video>
+        <script>
+          var vid = document.getElementById("myVideo");
+          vid.volume = 0.05;
+        </script>
+      </div>
+  </div>
+</div>
+</section>
 
 
 <!-- Footer -->
-<footer class="pt-4 py-4 border-top">
+<footer class="pt-4 pt-md-5"><!-- border-top-->
     <p id="margen">
       <a href="#">Game City</a>
     </p>
 </footer>
 
-<script src="main.js"></script>
+<script src="../main.js"></script>
 
 
 
