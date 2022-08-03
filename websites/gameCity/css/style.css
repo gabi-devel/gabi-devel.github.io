@@ -29,6 +29,10 @@ p {
     margin: 1em;
 }
 
+.dropdown-menu.show {
+    transform: translate(-1152px, 40px);
+}
+
 #aside {
     height: 100%;
 /*   border-radius: 1em; */
