@@ -94,15 +94,15 @@ body {
 
 .webs__container {
     width: 100%;
-    display: flex;
-    justify-content: space-around;
+    /* display: flex;
+    justify-content: space-around; */
     padding: 100px 100px;
 }
 
 .web__box {
     display: inline-block;
-    flex-wrap: wrap;
-    flex-basis: 30%;/*
+    flex-wrap: wrap;/*
+    flex-basis: 30%;
     background-color: rgb(255, 255, 255);*/
     outline: 1px solid #0d79a3;
     margin: 20px;
@@ -110,16 +110,24 @@ body {
     flex-grow: 1;overflow: hidden;
 }
 .web__box div {
-    margin: 10px auto;
+    /* margin: 10px auto; */
     text-align: center;
 }
 .web__box img {
-    margin: 10px auto;
+    /* margin: 10px auto; */
     height: 100%;
     width: 100%;
     object-fit: cover;
     padding: 10px 15px;   
 }
+.cardBox {
+    height: 210px;
+    display: flex;
+}
+.cardImage {
+    margin: auto;
+}
+
 .web__box a {
     color: #fff;
     text-decoration: none;

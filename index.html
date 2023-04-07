@@ -37,35 +37,43 @@
 <h1 class="text-center mt-4 display-3 text-primary"><br>Portfolio </h1>   
 
 <!-- Container sin Bootstrap -->
-<div class="webs__container"><!-- https://gabi-devel.github.io/gabi-devel-cordoba/" "images\cordoba.png" -->
-    <div class="web__box">
-      <div>
+<div class="row webs__container"><!-- https://gabi-devel.github.io/gabi-devel-cordoba/" "images\cordoba.png" -->
+    <div class="col web__box">
+        <p class="mt-2 text-light">Responsive Web Design</p>
+      <div class="cardBox">
         <a href="https://gabi-devel.github.io/gabi-devel-responsive/">
-        <p>Responsive Web Design</p>
         <img src="images\screenshot.png" alt="Responsive Web Design"></a>
       </div>
     </div>
-    <div class="web__box">
+    <!-- <div class="col web__box">
       <div>
         <a href="websites\contadorPublico\index.html">
         <p>Public Accountant</p>
         <img src="images\Sin título.png" alt="Accounting"></a>
       </div>
-    </div>
-    <div class="web__box">
-      <div>
+    </div> -->
+    <div class=" web__box col">
+        <p class="mt-2 text-light">Video games Game City</p>
+      <div class="cardBox">
         <a href="websites\gameCity\index.html">
-        <p>Video games Game City</p>
         <img src="images\gameCity2.png" alt="Game City"></a>
       </div>
     </div>
-    <div class="web__box">
-      <div>
-        <a href="https://shokosai.proyectoit.tech/">
-        <p>Shopping Store Shoko-Sai</p>
-        <img src="images\shokosai.png" alt="Tienda de Ropa"></a>
-      </div>    
-      
+    <div class="web__box col">
+        <p class="mt-2 text-light">Shopping Store Shoko-Sai</p>
+        <div class="cardBox">
+          <a href="https://shokosai.proyectoit.tech/">
+          <img src="images\shokosai.png" alt="Tienda de Ropa"></a>
+        </div>    
+        <button class="btn btn-primary d-grid mx-auto mt-3 mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+          Information
+        </button>
+        <section class="collapse aboutPage" id="collapseExample">
+          <div class="card card-body">
+            This website was made with JavaScript, PHP, Ajax, MySQL and the integration of the API of MercadoLibre
+          </div>
+        </section>
+    </div>    
       <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Enable body scrolling</button>
 
 <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
@@ -77,17 +85,25 @@
     <p>Try scrolling the rest of the page to see this option in action.</p>
   </div>
 </div> -->
-<p>
-  <button class="btn btn-primary d-grid mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+<div class="web__box col">
+    <p class="mt-2 text-light">Class Schedule Management</p>
+  <div class="cardBox">
+    <div class="cardImage">
+      <a href="https://proyectoit.tech/materias/materias">
+      <img src="images/calendar.png" alt="Gestión de Horario de Clases"></a>
+    </div>
+  </div>    
+  <button class="btn btn-primary d-grid mx-auto mt-3 mb-2" type="button" 
+  data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
     Information
   </button>
-</p>
-  <section class="collapse aboutPage" id="collapseExample">
-    <div class="card card-body">
-      This website was made with JavaScript, PHP, Ajax, MySQL and the integration of the API of MercadoLibre
-    </div>
-  </section>
-    </div>
+    <section class="collapse aboutPage" id="collapseExample2">
+      <div class="card card-body">
+        This website was made with Laravel and MySQL
+      </div>
+    </section>
+</div>   
+
 </div>
 
 <h2 id="videos" class="text-center display-5 text-primary">Videos </h2><br><br><br><br>
