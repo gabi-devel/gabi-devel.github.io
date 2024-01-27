@@ -121,7 +121,7 @@ body {
     padding: 10px 15px;   
 }
 .cardBox {
-    height: 210px;
+    /* height: 210px; */
     display: flex;
 }
 .cardImage {
