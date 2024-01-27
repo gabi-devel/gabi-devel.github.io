@@ -135,8 +135,8 @@ body {
 
 .aboutPage {
     position: absolute;
-    transform: translate(-22px, 10px);
-    width: 21%;
+    transform: translate(3%, 8%);
+    width: 23.1%;
 }
 
 #videos {
