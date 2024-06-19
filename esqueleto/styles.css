@@ -1,0 +1,43 @@
+.skeleton-container {
+    position: relative;
+    display: inline-block;
+}
+
+.info-box {
+    display: none;
+    position: absolute;
+    /* background-color: #fff; */
+    color: #000;
+    padding: 10px;
+    /* border: 1px solid #ccc;
+    border-radius: 5px; */
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    z-index: 1000;
+    max-width: 200px;
+}
+
+.highlight {
+    display: none;
+    position: absolute;
+    background-color: rgba(243, 196, 41, 0.151);
+    z-index: 999;
+    pointer-events: none;
+}
+.link-box {
+    display: none;
+    position: absolute;
+    background-color: #ffffff1a;
+    color: #000;
+    padding: 10px;
+    /* border: 1px solid #ccc;
+    border-radius: 5px; */
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    z-index: 1001;
+}
+
+.link-box a {
+    display: block;
+    margin-top: 5px;
+    text-decoration: none;
+    color: rgb(212, 23, 23);
+}
